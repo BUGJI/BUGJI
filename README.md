@@ -1,7 +1,7 @@
 <table>
   <tr>
     <th>夯</th>
-    <td>睡</td>
+    <td>C C B</td>
   </tr>
   <tr>
     <th>顶级</th>
