@@ -1,16 +1,26 @@
-## Hi there 👋
-
-<!--
-**BUGJI/BUGJI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<table>
+  <tr>
+    <th>夯</th>
+    <td>睡</td>
+  </tr>
+  <tr>
+    <th>顶级</th>
+    <td>Python</td>
+    <td>H5CSS3</td>
+  </tr>
+  <tr>
+    <th>人上人</th>
+    <td>设计</td>
+    <td>ENG</td>
+    <td>C(ESP32)</td>
+  </tr>
+  <tr>
+    <th>NPC</th>
+    <td>C C艹 C#</td>
+    <td>冰与火之舞</td>
+  </tr>
+  <tr>
+    <th>拉</th>
+    <td>精神状态</td>
+  </tr>
+</table>
