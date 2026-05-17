@@ -1,31 +1,50 @@
-<table align="right" height="300px">
-  <tr>
-    <th>夯</th>
-    <td>C C B</td>
-  </tr>
-  <tr>
-    <th>顶级</th>
-    <td>Python</td>
-    <td>H5CSS3</td>
-  </tr>
-  <tr>
-    <th>人上人</th>
-    <td>设计</td>
-    <td>ENG</td>
-    <td>C(ESP32)</td>
-  </tr>
-  <tr>
-    <th>NPC</th>
-    <td>C C艹 C#</td>
-    <td>冰与火之舞</td>
-  </tr>
-  <tr>
-    <th>拉</th>
-    <td>精神状态</td>
-  </tr>
-</table>
+﻿<img src="./metal-slug-fio-by-specterwhite.png" width = "337" height = "477" alt="Fio" align=right />
+<div align="center">
 
-<div align="left">
-  <h3>个人从夯锐评到拉</h3>
-  <p>首先是CCB这个不用多说，直接给到夯。然后忘了，最后就是精神状态毫无疑问给到拉</p>
+<!-- thanks for:https://github.com/NolanHo/NolanHo -->
+<!-- thanks for:https://github.com/Xbodwf/Xbodwf -->
+> <p align="left"><em>
+>     用代码表达言语的魅力，用代码书写山河的壮丽。
+> </em></p>
+> <p align="right">
+>     &mdash;&mdash;&mdash; 一言「一言开发者中心」
+> </p>
+<p align="left">
+  <div align="left">
+
+  ```python
+import requests
+import time
+
+def receive_messages(api_url, token):
+    last_id = 0
+    while True:
+        try:
+            response = requests.get(f"{api_url}/messages?since={last_id}")
+            messages = response.json().get("messages", [])
+            for msg in messages:
+                print(f"收到消息: {msg['sender']}: {msg['content']}")
+                last_id = max(last_id, msg['id'])
+            time.sleep(2)
+
+API_URL = "http://voce.bugcode.cc/api"
+receive_messages(API_URL, TOKEN)
+  ```
+  <br>
+  我常常在想方设法编写这段内容，每次看着别人的简介，总是好奇真的有人想的出来在这里写什么嘛，，
+  </div>
+</p>
 </div>
+
+<details>
+  <summary>🖨️ 站点详细</summary><br>
+
+  | 介绍 | 链接 |
+  | ---- | ---- |
+  | 主要站点，集成导航功能 | http://bugcode.cc |
+  | 镜像站点，集成导航功能 | http://bugji.github.io |
+  | 加入我的QQ群 | [http://qun.qq.com/invite?group_id=835382474](https://qm.qq.com/cgi-bin/qm/qr?k=BixrGd63CrHhe5oawoEGtXQSSSn8sJcT&jump_from=webapi&authKey=rIqkvqkIBOgiN4tqh9n6mRW3MyJn4P/cYp+Q11D9aYJj54BbLsXW0QlMTYuK+Uan) |
+  | 聊天服务器 | http://voce.bugcode.cc |
+
+
+</details>
