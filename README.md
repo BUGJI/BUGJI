@@ -41,10 +41,10 @@ receive_messages(API_URL, TOKEN)
 
   | 介绍 | 链接 |
   | ---- | ---- |
-  | 主要站点，集成导航功能 | http://bugcode.cc |
-  | 镜像站点，集成导航功能 | http://bugji.github.io |
+  | 主要站点 | https://bugcode.cc |
+  | 备用站点 | https://411912.xyz |
+  | 灾备站点 | https://bugji.github.io |
   | 加入我的QQ群 | [http://qun.qq.com/invite?group_id=835382474](https://qm.qq.com/cgi-bin/qm/qr?k=BixrGd63CrHhe5oawoEGtXQSSSn8sJcT&jump_from=webapi&authKey=rIqkvqkIBOgiN4tqh9n6mRW3MyJn4P/cYp+Q11D9aYJj54BbLsXW0QlMTYuK+Uan) |
-  | 聊天服务器 | http://voce.bugcode.cc |
 
 
 </details>
