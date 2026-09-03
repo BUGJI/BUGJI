@@ -12,26 +12,26 @@
 <p align="left">
   <div align="left">
 
-  ```python
-import requests
-import time
+  ```md
+### 介绍一下
 
-def receive_messages(api_url, token):
-    last_id = 0
-    while True:
-        try:
-            response = requests.get(f"{api_url}/messages?since={last_id}")
-            messages = response.json().get("messages", [])
-            for msg in messages:
-                print(f"收到消息: {msg['sender']}: {msg['content']}")
-                last_id = max(last_id, msg['id'])
-            time.sleep(2)
+我的仓库有九九成都是AI写的，不过只是为了解决我的一些冷门应用
+大部分设计自认为比较成熟，基本可以很快部署
+一些写的非常抽象的就是那我写的1%
 
-API_URL = "http://voce.bugcode.cc/api"
-receive_messages(API_URL, TOKEN)
+如果你看到我的一些问题，例如许可证问题、或者一些特性
+那是我无法顾及太多细节，可以随时提issue帮我纠正
+
+### 我的项目值得信任吗
+
+按照惯例，很多项目都会配备 Docker Compose、发行版、install.php 等等，用于快速初始化设置
+一般来说遇不到问题，因为本地会进行冒烟测试，加上我也要用
+当然，我没精力为这些项目做太多推广，不过我还是希望能帮到大部分人
+至于项目好不好，先部署下看看，很多项目都好清理
+
   ```
   <br>
-  有点难绷
+  我想找一个抱枕
   </div>
 </p>
 </div>
