@@ -31,7 +31,7 @@ API_URL = "http://voce.bugcode.cc/api"
 receive_messages(API_URL, TOKEN)
   ```
   <br>
-  我常常在想方设法编写这段内容，每次看着别人的简介，总是好奇真的有人想的出来在这里写什么嘛，，
+  有点难绷
   </div>
 </p>
 </div>
